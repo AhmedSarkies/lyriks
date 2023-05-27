@@ -1,6 +1,6 @@
 # Project Lyrics
 
-<h1><a href="https://lyriks-app.netlify.app/" target="_blank">Go to app</a></h1>
+<h2><a href="https://lyriks-app.netlify.app/" target="_blank">Go to app</a></h1>
 
 A spotify clone built using react, redux, and shazam api
 
