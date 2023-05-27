@@ -3,12 +3,9 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const shazamCoreAPI = createApi({
   reducerPath: "shazamCoreAPI",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://shazam-core.p.rapidapi.com/v1",
+    baseUrl: import.meta.env.VITE_SHAZAM_CORE_RAPID_API_KEY,
     prepareHeaders: (headers) => {
-      headers.set(
-        "X-RapidAPI-Key",
-        "7e428f3d4cmsha68453f359e1447p15e7a4jsn3c4a97570e9d"
-      );
+      headers.set("X-RapidAPI-Key", import.meta.VITE_GEO_API_KEY);
       return headers;
     },
   }),
