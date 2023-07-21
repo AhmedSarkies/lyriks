@@ -1,6 +1,6 @@
 # [Demo](https://lyriks-app.netlify.app/)
 
-## To Clone the repo: git clone https://github.com/AhmedSarkies/lyriks.git
+## To Clone the repo: `git clone https://github.com/AhmedSarkies/lyriks.git`
 
 ## Then you should install the node modules via: `npm i` or `npm install`
 
