@@ -1,15 +1,29 @@
-# Project Lyrics
+# [Demo](https://lyriks-app.netlify.app/)
 
-<h2><a href="https://lyriks-app.netlify.app/" target="_blank">Go to app</a></h1>
+## To Clone the repo: git clone https://github.com/AhmedSarkies/lyriks.git
 
-A spotify clone built using react, redux, and shazam api
+## Then you should install the node modules via: `npm i` or `npm install`
 
-The best Spotify Clone out there. built using react, redux and shazam api. the project includes the home page having the search functionality, dropdown to choose from various genres like pop, hip-hop, elictrical, k-pop, rock, etc. top trending songs and trending artists.
+## Available Scripts
 
-The around You page which detects the users location and shows trending songs in that paticular country
+In the project directory, you can run:
 
-clicking on the title of a paticular song takes you to the song detail page having the song lyrics, genres, related songs and much more.
+### `npm run div`
 
-clicking on a paticular artist takes you to the artist detail page which then shows the history of the artist and some of his most popular songs
+Runs the app in the development mode.\
+Open [http://localhost:5173](http://localhost:5173/) to view it in your browser.
 
-technology used = react, redux (for global state management), tailwind css and shazam api for fetching song details
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
